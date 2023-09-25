@@ -74,7 +74,6 @@ namespace ejercicios
                 sePudoValidar = int.TryParse(Console.ReadLine(), out valorIngresado);
             }
             return valorIngresado;
-
         }
         public static char PedirUnChar()
         {
@@ -122,10 +121,10 @@ namespace ejercicios
         }
 
 
-        public static long CalcularFactorial(int numero)
+        public static long CalcularFactorial(long numero)
         {
             long factorial = numero;
-            for (int i = numero - 1; i >= 1; i--)
+            for (long i = numero - 1; i >= 1; i--)
             {
                 factorial *= i;
             }

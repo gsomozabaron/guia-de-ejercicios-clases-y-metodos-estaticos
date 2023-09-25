@@ -282,7 +282,6 @@ namespace ejercicios
                     numero = funciones.PedirUnNumero();
                 }
             while (numero < 1);
-
             long factorial = funciones.CalcularFactorial(numero);
             Console.WriteLine($"el factorial de {numero}, es: {factorial}"); 
         }
